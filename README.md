@@ -14,7 +14,7 @@ Created by using [Create React App](https://github.com/facebook/create-react-app
 
   - React v17.0.2
   - Type Checker - TypeScript
-  - API client - Relay
+  - API client - Apollo Client
   - Ant Design
   - State management - Redux Thunk & Toolkit
   - Cypress
@@ -46,7 +46,6 @@ Inside the project directory run:
 - `yarn eject` - exposes content of `react-script` package
 - `yarn lint` - lints project files according to Airbnb — as part of their style guide 👍 — it provides an ESLint configuration that anyone can use and it is the standard.
 - `yarn fix` - fix lint errors.
-- `yarn relay` - generate graphql queries.
 - `yarn cypress:open test` - run cypress test
 
 CRA template only support `scripts` and `dependencies` inside generated `package.json`. No `devDependencies` is possible on CRA template for now.
@@ -57,7 +56,7 @@ The code is set for [Redux Toolkit](https://medium.com/react-courses/instant-lea
 
 ## API Client
 
-[Relay](https://relay.dev/) keeps management of data-fetching easy, whether your app has tens, hundreds, or thousands of components.
+Apollo Client keeps management of data-fetching easy, whether your app has tens, hundreds, or thousands of components.
 
 ## Eslint configurations
 
