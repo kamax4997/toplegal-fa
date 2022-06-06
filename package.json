@@ -1,0 +1,77 @@
+{
+  "name": "top.legal-code-test",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Andrei Strukau",
+    "email": "karlikboroda@gmail.com"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@apollo/client": "^3.6.5",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "antd": "^4.20.4",
+    "history": "^5.0.1",
+    "moment": "^2.29.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "sass": "1.39.2",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+    "fix": "eslint --ext .js,.jsx,.ts,.tsx  --fix ./",
+    "relay": "relay-compiler --schema schema.graphql --src src --extensions tsx --language typescript",
+    "cypress:open": "cypress open"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@types/material-ui": "^0.21.12",
+    "@types/react-helmet": "^6.1.4",
+    "@types/react-highlight-words": "^0.16.4",
+    "@types/react-redux": "^7.1.20",
+    "@types/react-relay": "^11.0.2",
+    "@types/react-router-dom": "^5.3.2",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "cypress": "^8.7.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "graphql": "^15.7.1",
+    "graphql-cli": "4.1.0",
+    "relay-compiler": "^12.0.0",
+    "relay-compiler-language-typescript": "^14.2.1"
+  },
+  "proxy": "https://api.flexhire.com/api/v2"
+}
